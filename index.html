@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    
+    
+</head>
+<body>
+
+<div id="header">
+    <div class= "container">
+        <nav>
+            <img src="portfolioImages/logostar.png" class=" logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!--<i class="fas fa-times" onclick="closemenu()" ></i> -->
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Concept Artist</p>
+            <h1>Hi, I'm <span> Terri Lee</span><br></h1>
+
+        </div>
+
+
+    </div>
+</div>
+<!-- about ---------------------- -->
+<div id= "about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="portfolioImages/IMG_7821.PNG">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am an artist from Toronto, now based in New York City, 
+                    currently attending Parsons School of Design. I am majoring
+                     in Design and Technology, pursuing my passions for concept art,
+                      illustration, and visual development in the entertainment industry.
+                       My extensive background in visual arts has bolstered my artistic 
+                       skills, particularly as they pertain to concept art—the field I 
+                       am most passionate about. During my time as a Design and Technology 
+                       major, I have developed coding skills related to game development in Unity, 
+                       along with a foundational knowledge of several coding languages, including C#,
+                        JavaScript, and HTML.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">P5.js projects</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Digital Art</span><br>Character Concept Art and Illustration.</li>
+                            <li><span>Traditional Art</span><br>Oil, Watercolor, Acrylic painting. Graphite and Pastels.</li>
+                            <li><span>Coding</span><br>Unity Game Development, javascript, C#, HTML</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Embreate </span><br>Illustrator & Character Concept Artist</li>
+                            <li><span>Toronto Art Portfolio Studio</span><br> Assistant Teacher</li>
+                            <li><span>Toronto FanExpo & Comic Con</span><br>Exhibitor</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <a href= "project1again.html" > Project 1: Lost and Found</a></li>
+                            <li> <a href= "project2again.html" > Project 2: Face Generator</a></li>
+                            <li> <a href= "project3again.html" > Project 3: Experimental Clock</a></li>
+                            <li> <a href= "project4again.html" > Project 4: Exquisite Corpse</a></li>
+                            <li> <a href= "project5again.html" > Project 5: Optical Illusion</a></li>
+                            <li> <a href= "project6again.html" > Project 6: Data Portrait</a></li>
+                            <li> <a href= "AutobiographicalGameP5again.html" > Project 7: Autobiographical Game</a></li>
+                            <!--<li><span>Project 1: Lost and Found</span><br>insert text.</li>
+                            <li><span>Project 2: Face Generator</span><br>edu2 text.</li>
+                            <li><span>Project 3: Experimental Clock</span><br>edu 3 text</li> -->
+                        </ul>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- ------------ services ------------> 
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Concept Decks</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="portfolioImages/VampireConcept.png">
+                <div class="layer">
+                    <a href="https://www.artstation.com/artwork/981wBa"> <i class="fa-brands fa-artstation" style="color: #5898ff;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="portfolioImages/AmuletConcept.png">
+                <div class="layer">
+                    <a href="https://www.artstation.com/artwork/OGnrNk"><i class="fa-brands fa-artstation" style="color: #5898ff;"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="portfolioImages/OracleConcept.png">
+                <div class="layer">
+                    <a href="https://www.artstation.com/artwork/XgRlWR"> <i class="fa-brands fa-artstation" style="color: #5898ff;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="portfolioImages/HoraConcept.png">
+                <div class="layer">
+                    <a href="https://www.artstation.com/artwork/m8BGYv"><i class="fa-brands fa-artstation" style="color: #5898ff;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="portfolioImages/OsirisConcept.png">
+                <div class="layer">
+                    <a href="https://www.artstation.com/artwork/a00K4J"> <i class="fa-brands fa-artstation" style="color: #ffffff;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- contact ------->
+  <div id="contact">
+    <h1> Contact Me</h1>
+    <div class="icons">
+        <a href="https://www.instagram.com/silverstar1243/"><i class="fa-brands fa-instagram" style="color: #ffb24e;"></i></a>
+    </div>
+
+  </div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        
+        event.currentTarget.classList.add("active-link");
+       
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+</body>
+
+</html>
