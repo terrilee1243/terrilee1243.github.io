@@ -204,3 +204,21 @@ nav ul li a::after{
 #contact{
     padding: 50px;
 }
+.instagram-icon {
+    font-size: 2rem; /* Adjust size as needed */
+    transition: transform 0.3s ease, color 0.3s ease; /* Add smooth scaling on hover */
+}
+
+.instagram-icon:hover {
+    transform: scale(1.2); /* Slightly larger on hover */
+    color: #ff9800; /* Optional: Change color on hover */
+}
+.p5Proj{
+    
+    display: inline-block;
+}
+
+/* Or apply a color specifically to this link using a class or ID */
+a {
+    color: #ff9800; /* Replace 'red' with your desired color */
+}
